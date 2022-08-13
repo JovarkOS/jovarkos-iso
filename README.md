@@ -10,5 +10,6 @@ To add config for certain packages just place them in the location they would be
 For example `/etc/config.txt` would go in `airootfs/etc/config.txt` <br />
 
 # Building
+Start out by making working and output directories. <br />
 Run `make` to build the iso. <br /> 
 Once it's done, it should be in ouput. You can then run it with qemu/virtualbox. 
